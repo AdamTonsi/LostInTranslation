@@ -2,6 +2,7 @@ package translation;
 
 import javax.swing.*;
 import java.awt.event.*;
+import java.awt.*;
 
 
 // TODO Task D: Update the GUI for the program to align with UI shown in the README example.
@@ -20,6 +21,7 @@ public class GUI {
             countryPanel.add(new JLabel("Country:"));
             countryPanel.add(countryField);
 
+            /*
             JPanel languagePanel = new JPanel();
             JTextField languageField = new JTextField(10);
             languagePanel.add(new JLabel("Language:"));
@@ -28,6 +30,7 @@ public class GUI {
             JPanel buttonPanel = new JPanel();
             JButton submit = new JButton("Submit");
             buttonPanel.add(submit);
+             */
 
             JLabel resultLabelText = new JLabel("Translation:");
             buttonPanel.add(resultLabelText);
